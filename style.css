@@ -1,0 +1,78 @@
+body{
+    background-image:url('https://wallpapercave.com/wp/fddIlVB.jpg');
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;   
+}
+h1{
+    top: 0;
+    left: 0;
+    margin: auto;
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid skyblue;
+    font-size: 10vw;
+    background-color: skyblue;
+}
+
+.container{
+    width: 100%;
+}
+
+p{
+color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid white;
+    font-size: 10vw;
+    background-color: skyblue;
+}
+
+#clock{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#progressBarContainer{
+    transform: rotate(90deg);
+}
+
+.buttonSection{
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.roundButton{
+    color: white;
+    border-radius: 50%;
+    background-color: skyblue;
+    border: 5px solid white;
+    width: 10rem;
+    height: 10rem;
+    font-size:2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button1{
+    float: left;
+    width: 49%
+}
+
+button2{
+    float:right;
+    width: 49%;
+}
+
+.selector{
+    color: white;
+    background-color:black;
+    padding: .8rem 1.4rem .9rem .8rem;
+    width: 30%;
+    border-radius: .5rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 2rem;
+    text-align: center;
+    border: 5px solid white;
+}
